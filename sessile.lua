@@ -38,7 +38,7 @@ nodecore.register_abm({
 		label = "movement:sessile",
 		nodenames = {"group:sessile"},
 		neighbors = {"nc_terrain:water_source"},
-		interval = 10, 
+		interval = 120, 
 		chance = 10,
 		action = function(pos,node) -- Do everything possible to optimize this method
 				local check_pos = {x=pos.x, y=pos.y-1, z=pos.z}
